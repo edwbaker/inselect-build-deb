@@ -7,7 +7,7 @@ cd inselect
 
 #Change version in DEBIAN/control and elsewhere
 cp ../conf/control DEBIAN
-echo "Version: $1\n" >> DEBIAN/control
+echo "Version: $1" >> DEBIAN/control
 cp ../conf/inselect.desktop usr/share/applications/
 echo "Version=$1;" >> usr/share/applications/inselect.desktop
 
@@ -18,6 +18,9 @@ sudo git clone https://github.com/NaturalHistoryMuseum/inselect.git
 cd inselect
 git checkout v$1
 cd ..
+
+SIZE=$(du -s inselect | cut -f1)
+echo "Installed-Size: $SIZE" >> ../../DEBIAN/control
 
 cd ../..
 
