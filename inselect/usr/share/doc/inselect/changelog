@@ -1,0 +1,6 @@
+inselect (0.1.25) xenial; urgency=low
+  * Initial Ubuntu release.
+    - First packaging of Inselect in deb format
+ -- Ed Baker <edwbaker@gmail.com>  Sun, 17 Apr 2016 12:42:00 +0100
+
+

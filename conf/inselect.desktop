@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Inselect
+Comment=Image segmentation and annotation
+GenericName=Inselect
+Terminal=false
+Icon=inselect-icon.png
+Type=Application
+Exec=python /usr/share/inselect/inselect.py
+Categories=Science

@@ -1,0 +1,8 @@
+Package: inselect
+Section: science
+Priority: optional
+Maintainer: Ed Baker <edwbaker@gmail.com>
+Architecture: all
+Depends: python-pyside, python-pathlib, python-opencv,python-unicodecsv, python-humanize, python-psutil, python-dateutil, python-tz, python-yaml, python-pip
+Description: Image segmentation
+ A tool for the semi-automated segmentation and annotation of images. 
