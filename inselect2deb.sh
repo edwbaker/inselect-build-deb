@@ -7,9 +7,9 @@ cd inselect
 
 #Change version in DEBIAN/control and elsewhere
 cp ../conf/control DEBIAN
-echo "Version: $1" >> DEBIAN/control
+echo "Version: $1trusty1" >> DEBIAN/control
 cp ../conf/inselect.desktop usr/share/applications/
-echo "Version=$1;" >> usr/share/applications/inselect.desktop
+echo "Version=$1trusty1;" >> usr/share/applications/inselect.desktop
 
 cd usr/share
 #Get Inselect from GitHub
@@ -44,8 +44,8 @@ cp usr/share/inselect/data/Inselect_Icon_256px.png usr/share/pixmaps/inselect-ic
 #Build
 ######
 cd ..
-dpkg -b inselect inselect-$1.deb
-lintian inselect-$1.deb
+dpkg -b inselect inselect-$1trusty1.deb
+lintian inselect-$1trusty1.deb
 
 
 #Cleanup
