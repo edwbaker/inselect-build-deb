@@ -1,4 +1,4 @@
 #!/bin/sh
 pip install schematics
-sudo add-apt-repository "deb https://apt.ebaker.me.uk/ xenial main"
+sudo add-apt-repository "deb https://apt.ebaker.me.uk/ubuntu/ xenial main"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 7D4367B0
